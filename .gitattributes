@@ -1,4 +1,11 @@
+# Track large data and model files with Git LFS
 *.pkl filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
 similarity filter=lfs diff=lfs merge=lfs -text
+df filter=lfs diff=lfs merge=lfs -text
+lfs filter=lfs diff=lfs merge=lfs -text
+track filter=lfs diff=lfs merge=lfs -text
 similarity.pkl filter=lfs diff=lfs merge=lfs -text
-spotify_millsongdata.csv filter=lfs diff=lfs merge=lfs -text
+similarity.pklgit filter=lfs diff=lfs merge=lfs -text
+df.pklgit filter=lfs diff=lfs merge=lfs -text
+df.pkl filter=lfs diff=lfs merge=lfs -text

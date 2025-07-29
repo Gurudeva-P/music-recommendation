@@ -1,0 +1,4 @@
+*.pkl
+*.csv
+.cache/
+.ipynb_checkpoints/

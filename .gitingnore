@@ -1,0 +1,15 @@
+# Ignore large files
+similarity.pkl
+similarity
+
+# Ignore Python bytecode
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
+venv/
+*.egg-info/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
